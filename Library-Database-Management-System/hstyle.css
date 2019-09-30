@@ -1,0 +1,99 @@
+body{
+margin:0;
+padding:0;
+background:url(r1.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+
+}
+
+.login-box{
+	width:1500px;
+	height:100px;
+	background:#000;
+	color:#fff;
+	top:10%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+	border-radius:120px
+	
+}
+.logo img{
+	width:150px;
+	height:auto;
+	float:left;
+	margin-top:-70px;
+}
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top:1px;
+}
+.main-nav li{
+	display:inline;
+}
+.main-nav li a{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:"rorboto",sans-serif;
+	font-size:15px;
+}
+.main-nav li.active a{
+	border:1px solid green;
+}
+.main-nav li a:hover
+{ 
+border: 1px solid green;
+}
+.button
+{
+	margin-top:30px;
+	margin-left:40px;
+}
+.btn
+{border:1px solid white;
+padding:10px 30px;
+color:white;
+text-decoration:none;
+margin-right:5px;
+font-size:13px;
+text-transform:uppercase;
+}
+.btn-one
+{
+		font-family:"roboto",sans-serif;
+		background-color:darkorange;
+	
+}
+
+.btn-two
+{
+	font-family:"roboto",sans-serif;
+	background-color:darkorange;
+}
+
+.btn-three
+{
+	font family:"roboto",sans-serif;
+	background-color:darkorange;
+}
+
+.header h1{
+	margin-left:20px;
+	margin-top:100px;
+	text-transform:uppercase;
+	font-family:cursive;
+	font-size:70px;
+	color:white;
+}
+.header p{
+	margin-left:50px;
+	font-family:"roboto";
+	font-size:30px;
+	color:grey;
+}
